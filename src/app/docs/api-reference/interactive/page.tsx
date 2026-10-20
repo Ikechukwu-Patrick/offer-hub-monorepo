@@ -2,7 +2,7 @@
 
 import { API_SCHEMA } from "@/data/api-schema";
 import { EndpointPanel } from "@/components/api-explorer/EndpointPanel";
-import { Badge } from "@/components/docs/Badge";
+import { StatusBadge } from "@/components/ui/StatusBadge";
 import { Callout } from "@/components/docs/Callout";
 
 export default function InteractiveExplorerPage() {
@@ -16,7 +16,7 @@ export default function InteractiveExplorerPage() {
           >
             Interactive API Explorer
           </h1>
-          <Badge variant="warning">Coming Soon</Badge>
+          <StatusBadge variant="warning">Coming Soon</StatusBadge>
         </div>
         <p className="mt-3 text-base text-content-secondary">
           Browse endpoints, fill in parameters, and see mock request/response
